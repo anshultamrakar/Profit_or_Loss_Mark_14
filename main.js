@@ -10,9 +10,8 @@ function submitHandler(){
     var ip = Number(initialPrice.value) ;
     var qty =  Number(quantityStocks.value);
     var curr =  Number(currentPrice.value) ;
+     calculateProfitAndLoss(500,1000,10000);
 
-
- calculateProfitAndLoss(ip, qty, curr);
 }
 
 
